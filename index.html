@@ -1,24 +1,18 @@
 <!doctype html>
 <html lang="cs">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>360° Produktová fotografie –⁠ Vít Dobrovský</title>
-    <link rel="stylesheet" href="./style/style.css" />
-  </head>
-  <body>
-    <div class="viewer">
-      <div
-        class="axigear-360"
-        data-folder="./img/product/"
-        data-filename="{index}.jpg"
-        data-amount="24"
-        data-play-icon
-        data-rotate-icon
-        data-auto-loading
-        data-auto-play
-      ></div>
-      <!-- 
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>360° Produktová fotografie –⁠ Vít Dobrovský</title>
+  <link rel="stylesheet" href="./style/style.css" />
+</head>
+
+<body>
+  <div class="viewer">
+    <div class="axigear-360" data-folder="./img/product/" data-filename="{index}.jpg" data-amount="24"
+      data-index-zero-base="2" data-play-icon data-rotate-icon data-auto-loading data-auto-play></div>
+    <!-- 
             data-magnifier: zoom level
             data-full-screen: shows fullscreen (lightbox) icon
             data-autoplay-reverse: reverse autoplay
@@ -29,7 +23,7 @@
             data-ratio: aspect ratio
             data-box-shadow: CSS box-shadow property
             data-stop-at-edges: prevents duplicate image when reaching the last one -->
-      <!-- 
+    <!-- 
             play-icon-url
             magnifier-icon-url
             full-screen-icon-url
@@ -38,21 +32,14 @@
             image-360-icon-url
             image-360-icon-background-color 
         -->
-    </div>
+  </div>
 
-    <div class="viewer">
-      <div
-        class="axigear-360"
-        data-folder="./img/product/"
-        data-filename="{index}.jpg"
-        data-amount="24"
-        data-index-zero-base="2"
-        data-keys
-        data-spin-reverse
-      ></div>
-    </div>
+  <div class="viewer">
+    <div class="axigear-360" data-folder="./img/product/" data-filename="{index}.jpg" data-amount="24"
+      data-index-zero-base="2" data-keys data-spin-reverse></div>
+  </div>
 
-    <script src="./script/axigear-360-viewer.min.js"></script>
-  </body>
+  <script src="./script/axigear-360-viewer.min.js"></script>
+</body>
+
 </html>
-
